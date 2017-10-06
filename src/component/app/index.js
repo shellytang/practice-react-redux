@@ -1,4 +1,6 @@
 import React from 'react';
+import MovieList from '../../container/movie-list';
+import MovieDetail from '../../container/movie-detail';
 
 class App extends React.Component {
   constructor(props) {
@@ -8,7 +10,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <MovieList />
+        <MovieDetail />
       </div>
     );
   }
